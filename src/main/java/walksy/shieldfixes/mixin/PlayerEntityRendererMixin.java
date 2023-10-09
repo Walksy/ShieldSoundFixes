@@ -25,6 +25,7 @@ public abstract class PlayerEntityRendererMixin extends LivingEntityRenderer<Abs
 
     //Way too buggy
     //Sometimes doesn't show the player using a shield
+    //Most likely something to do with the checkShieldState func
 
     public PlayerEntityRendererMixin(EntityRendererFactory.Context ctx, PlayerEntityModel<AbstractClientPlayerEntity> model, float shadowRadius) {
         super(ctx, model, shadowRadius);
