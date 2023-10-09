@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "walksy.shieldfixes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "WorldMixin",
+    "PlayerEntityRendererMixin",
+    "ExplosionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,6 @@
+v1	named	intermediary
+FIELD	walksy/shieldfixes/mixin/ExplosionMixin	D	x	field_9195
+FIELD	walksy/shieldfixes/mixin/ExplosionMixin	D	y	field_9192
+FIELD	walksy/shieldfixes/mixin/ExplosionMixin	D	z	field_9189
+FIELD	walksy/shieldfixes/mixin/ExplosionMixin	F	power	field_9190
+FIELD	walksy/shieldfixes/mixin/ExplosionMixin	Lnet/minecraft/world/World;	world	field_9187

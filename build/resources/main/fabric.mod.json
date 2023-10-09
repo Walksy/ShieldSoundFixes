@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "shieldfixes",
+	"version": "2.2.0",
+
+	"name": "Walksy's Shield Fixes",
+	"description": "Fixes shield sounds",
+	"authors": [
+		"Walksy"
+	],
+	"contact": {
+		"homepage": ""
+	},
+
+	"license": "MIT",
+	"icon": "assets/walksy/icon.png",
+
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"walksy.shieldfixes.ShieldFixes"
+		],
+		"modmenu": [
+			"walksy.shieldfixes.configs.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"shieldfixes.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric-resource-loader-v0": "*",
+		"fabric-rendering-v1": "*",
+		"fabric-lifecycle-events-v1": "*",
+		"fabric-key-binding-api-v1": "*"
+	}
+}

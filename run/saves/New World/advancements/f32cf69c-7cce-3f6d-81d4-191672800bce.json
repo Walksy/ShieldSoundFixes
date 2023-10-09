@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2023-10-08 17:50:15 +0100",
+      "minecraft:savanna": "2023-10-08 17:49:18 +0100",
+      "minecraft:plains": "2023-10-08 17:50:24 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3105
+}

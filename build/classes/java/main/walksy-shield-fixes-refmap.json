@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "walksy/shieldfixes/mixin/ExplosionMixin": {
+      "affectWorld": "Lnet/minecraft/class_1927;method_8350(Z)V"
+    },
+    "walksy/shieldfixes/mixin/PlayerEntityRendererMixin": {
+      "getArmPose": "Lnet/minecraft/class_1007;method_4210(Lnet/minecraft/class_742;Lnet/minecraft/class_1268;)Lnet/minecraft/class_572$class_573;"
+    },
+    "walksy/shieldfixes/mixin/WorldMixin": {
+      "playSound(Lnet/minecraft/entity/player/PlayerEntity;DDDLnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FF)V": "Lnet/minecraft/class_1937;method_43128(Lnet/minecraft/class_1657;DDDLnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "walksy/shieldfixes/mixin/ExplosionMixin": {
+        "affectWorld": "Lnet/minecraft/class_1927;method_8350(Z)V"
+      },
+      "walksy/shieldfixes/mixin/PlayerEntityRendererMixin": {
+        "getArmPose": "Lnet/minecraft/class_1007;method_4210(Lnet/minecraft/class_742;Lnet/minecraft/class_1268;)Lnet/minecraft/class_572$class_573;"
+      },
+      "walksy/shieldfixes/mixin/WorldMixin": {
+        "playSound(Lnet/minecraft/entity/player/PlayerEntity;DDDLnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FF)V": "Lnet/minecraft/class_1937;method_43128(Lnet/minecraft/class_1657;DDDLnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V"
+      }
+    }
+  }
+}
