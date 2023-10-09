@@ -12,7 +12,6 @@
 		"homepage": ""
 	},
 
-	"license": "MIT",
 	"icon": "assets/walksy/icon.png",
 
 	"environment": "client",
