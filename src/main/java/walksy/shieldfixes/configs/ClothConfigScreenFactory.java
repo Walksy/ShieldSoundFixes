@@ -30,27 +30,11 @@ public final class ClothConfigScreenFactory {
 						.build()
 				)
 				.addEntry(entryBuilder
-						.startBooleanToggle(
-								localized("config", "shield_rendering"),
-								ShieldFixes.config.shieldRendering
-						)
-						.setSaveConsumer(value -> ShieldFixes.config.shieldRendering = value)
-						.build()
-				)
-				.addEntry(entryBuilder
 						.startFloatField(
 								localized("config", "shield_volume"),
 								ShieldFixes.config.shieldSoundVolume
 						)
 						.setSaveConsumer(value -> ShieldFixes.config.shieldSoundVolume = value)
-						.build()
-				)
-				.addEntry(entryBuilder
-						.startBooleanToggle(
-								localized("config", "shield_debug"),
-								ShieldFixes.config.debug
-						)
-						.setSaveConsumer(value -> ShieldFixes.config.debug = value)
 						.build()
 				);
 		return builder.build();

@@ -1,5 +1,5 @@
-[17:42:11] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19 with Fabric Loader 0.14.7
-[17:42:11] [main/INFO] (FabricLoader) Loading 14 mods:
+[22:23:14] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19 with Fabric Loader 0.14.7
+[22:23:14] [main/INFO] (FabricLoader) Loading 14 mods:
 	- cloth-basic-math 0.6.1
 	- cloth-config 7.0.72
 	- fabric-api-base 0.4.9+e62f51a3a9
@@ -13,16 +13,16 @@
 	- lazydfu 0.1.2
 	- minecraft 1.19
 	- modmenu 4.0.0
-	- shieldfixes 2.2.0
-[17:42:11] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Walksy/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[17:42:11] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:42:11] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[17:42:11] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:42:12] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
-[17:42:13] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
-[17:42:16] [main/INFO] (Minecraft) Building optimized datafixer
-[17:42:21] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:42:22] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+	- shieldfixes 1.0
+[22:23:15] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Walksy/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[22:23:15] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[22:23:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[22:23:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[22:23:17] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[22:23:17] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[22:23:21] [main/INFO] (Minecraft) Building optimized datafixer
+[22:23:26] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:23:27] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.5.41.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:140) ~[authlib-3.5.41.jar:?]
@@ -40,9 +40,9 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.5.41.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-3.5.41.jar:?]
 	... 9 more
-[17:42:22] [Render thread/INFO] (Minecraft) Setting user: Player411
-[17:42:23] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[17:42:27] [Worker-Main-12/ERROR] (Minecraft) Failed to retrieve profile key pair
+[22:23:27] [Render thread/INFO] (Minecraft) Setting user: Player647
+[22:23:28] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[22:23:37] [Worker-Main-12/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.class_7434.method_43605(class_7434.java:112) ~[minecraft-merged-named.jar:?]
 	at net.minecraft.class_7434.method_44291(class_7434.java:56) ~[minecraft-merged-named.jar:?]
@@ -53,79 +53,21 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[17:42:27] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Cloth Config v6, Fabric API Base, LazyDFU, Fabric Key Binding API (v1), Fabric Lifecycle Events (v1), Fabric Screen API (v1), Fabric Resource Loader (v0), Walksy's Shield Fixes, Fabric Loader, Mod Menu, Fabric Rendering (v1))
-[17:42:27] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[17:42:29] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[17:42:29] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17:42:30] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (Arctis Nova 7)
-[17:42:30] [Render thread/INFO] (Minecraft) Sound engine started
-[17:42:30] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[17:42:30] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[17:42:30] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:42:30] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:42:30] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:42:30] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:42:30] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:42:31] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17:42:31] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:42:31] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:42:31] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:42:46] [Worker-Bootstrap-6/INFO] (Minecraft) 4256 Datafixer optimizations took 29072 milliseconds
-[17:48:40] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[17:48:41] [Render thread/INFO] (Minecraft) Loaded 1179 advancements
-[17:48:44] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19
-[17:48:44] [Server thread/INFO] (Minecraft) Generating keypair
-[17:48:58] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[17:48:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:48:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:48:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:49:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:49:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:49:01] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[17:49:01] [Render thread/INFO] (Minecraft) Preparing spawn area: 2%
-[17:49:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 4%
-[17:49:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 5%
-[17:49:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 7%
-[17:49:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 9%
-[17:49:04] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
-[17:49:04] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
-[17:49:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 15%
-[17:49:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 19%
-[17:49:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 21%
-[17:49:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 24%
-[17:49:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 27%
-[17:49:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 29%
-[17:49:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 32%
-[17:49:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 35%
-[17:49:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 39%
-[17:49:09] [Render thread/INFO] (Minecraft) Preparing spawn area: 42%
-[17:49:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 44%
-[17:49:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 49%
-[17:49:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 52%
-[17:49:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 55%
-[17:49:12] [Render thread/INFO] (Minecraft) Preparing spawn area: 58%
-[17:49:12] [Render thread/INFO] (Minecraft) Preparing spawn area: 62%
-[17:49:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 66%
-[17:49:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 70%
-[17:49:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 74%
-[17:49:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 77%
-[17:49:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 82%
-[17:49:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 84%
-[17:49:16] [Render thread/INFO] (Minecraft) Preparing spawn area: 87%
-[17:49:16] [Render thread/INFO] (Minecraft) Preparing spawn area: 91%
-[17:49:17] [Render thread/INFO] (Minecraft) Preparing spawn area: 96%
-[17:49:17] [Render thread/INFO] (Minecraft) Time elapsed: 18873 ms
-[17:49:17] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[17:49:17] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[17:49:18] [Server thread/INFO] (Minecraft) Player411[local:E:693d8e71] logged in with entity id 344 at (328.5, 63.0, 92.5)
-[17:49:18] [Server thread/INFO] (Minecraft) Player411 joined the game
-[17:49:19] [Render thread/INFO] (Minecraft) Loaded 0 advancements
-[17:49:21] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:49:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[17:49:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[17:49:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[17:49:26] [Render thread/INFO] (Minecraft) Using default channel type
-[17:49:26] [Render thread/INFO] (Minecraft) Started serving on 57851
-[17:49:26] [Render thread/INFO] (Minecraft) [CHAT] Local game hosted on port 57851
-[17:50:42] [Server thread/INFO] (Minecraft) [Player411: Gave 1 [Wooden Axe] to Player411]
-[17:50:42] [Render thread/INFO] (Minecraft) [CHAT] Gave 1 [Wooden Axe] to Player411
+[22:23:37] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Resource Loader (v0), Fabric Lifecycle Events (v1), Fabric Key Binding API (v1), LazyDFU, Fabric Rendering (v1), Fabric API Base, Mod Menu, Cloth Config v6, Fabric Loader, Fabric Screen API (v1), Walksy's Shield Fixes)
+[22:23:38] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[22:23:42] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[22:23:42] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22:23:42] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (Arctis Nova 7)
+[22:23:42] [Render thread/INFO] (Minecraft) Sound engine started
+[22:23:42] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22:23:42] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[22:23:42] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:23:42] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:23:42] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:23:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:23:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:23:43] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22:23:44] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:23:44] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:23:44] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22:24:00] [Worker-Bootstrap-6/INFO] (Minecraft) 4256 Datafixer optimizations took 38465 milliseconds

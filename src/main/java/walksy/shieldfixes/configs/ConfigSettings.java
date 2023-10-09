@@ -12,7 +12,7 @@ public final class ConfigSettings {
 	private transient File file;
 
 	public boolean shieldSounds = true;
-	public boolean shieldRendering = true;
+	public boolean shieldRendering = false;
 
 	public float shieldSoundVolume = 1.0f;
 	public boolean debug = false;

@@ -4,7 +4,7 @@
 	"version": "${version}",
 
 	"name": "Walksy's Shield Fixes",
-	"description": "Fixes shield sounds & renders accurate shield states",
+	"description": "Fixes shield sounds",
 	"authors": [
 		"Walksy"
 	],

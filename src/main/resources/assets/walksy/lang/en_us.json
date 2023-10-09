@@ -3,7 +3,5 @@
 
   "config.shieldfixes.empty": "Shield Sounds",
   "config.shieldfixes.shield_sounds": "Enable Shield Disable Sounds",
-  "config.shieldfixes.shield_rendering": "Enable Accurate Shield Rendering",
-  "config.shieldfixes.shield_volume": "Shield Disable Volume",
-  "config.shieldfixes.shield_debug": "Enable Debugs (Don't turn on)"
+  "config.shieldfixes.shield_volume": "Shield Disable Volume"
 }
