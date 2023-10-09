@@ -1,6 +1,5 @@
-<p align="center">
-	<img width=256px src="GitHub/logo.png" />
-</p>
+# Shield Fixes
 
-Allows you to change and configure minecrafts default colors (Ported from meteor client)
+ + Fixes MC bug (Shield sounds) MC-98271 -- https://bugs.mojang.com/browse/MC-98271
+ + Renders accurate shield states on different players by factoring in the 5 tick delay
 
