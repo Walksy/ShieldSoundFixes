@@ -22,7 +22,7 @@ import static walksy.shieldfixes.ShieldFixes.mc;
 public class WorldMixin {
 
     /**
-     * Fixes Minecraft Bug MC-98271 -- https://bugs.mojang.com/browse/MC-98271
+     * Fixes Minecraft Bug MC-98271 -- https://bugs.mojang.com/browse/MC-105068
      * --Walksy
      */
 
