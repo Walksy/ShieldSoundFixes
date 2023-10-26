@@ -34,8 +34,6 @@ public class WorldMixin {
 
     @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/entity/player/PlayerEntity;DDDLnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FF)V")
     private void onSoundPlay(PlayerEntity except, double x, double y, double z, SoundEvent sound, SoundCategory category, float volume, float pitch, CallbackInfo ci) {
-        ChatHud chat = mc.inGameHud.getChatHud();
-        chat.addMessage(Text.of(String.valueOf(sound.getId())));
         if (ShieldFixes.config.shieldSounds) {
             //Checks if the 'shield.block' sound effect has been played because for some reason it shows it's been played, but no sound is outputted
             //if it has then we know the player is blocking with a shield
