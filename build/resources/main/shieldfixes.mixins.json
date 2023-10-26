@@ -6,7 +6,6 @@
   ],
   "client": [
     "WorldMixin",
-    "PlayerEntityRendererMixin",
     "ExplosionMixin"
   ],
   "injectors": {

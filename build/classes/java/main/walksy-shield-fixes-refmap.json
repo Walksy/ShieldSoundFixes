@@ -3,6 +3,10 @@
     "walksy/shieldfixes/mixin/ExplosionMixin": {
       "affectWorld": "Lnet/minecraft/class_1927;method_8350(Z)V"
     },
+    "walksy/shieldfixes/mixin/ClientPlayerEntityMixin": {
+      "Lnet/minecraft/client/network/AbstractClientPlayerEntity;tick()V": "Lnet/minecraft/class_742;method_5773()V",
+      "tick()V": "Lnet/minecraft/class_746;method_5773()V"
+    },
     "walksy/shieldfixes/mixin/PlayerEntityRendererMixin": {
       "getArmPose": "Lnet/minecraft/class_1007;method_4210(Lnet/minecraft/class_742;Lnet/minecraft/class_1268;)Lnet/minecraft/class_572$class_573;"
     },
@@ -14,6 +18,10 @@
     "named:intermediary": {
       "walksy/shieldfixes/mixin/ExplosionMixin": {
         "affectWorld": "Lnet/minecraft/class_1927;method_8350(Z)V"
+      },
+      "walksy/shieldfixes/mixin/ClientPlayerEntityMixin": {
+        "Lnet/minecraft/client/network/AbstractClientPlayerEntity;tick()V": "Lnet/minecraft/class_742;method_5773()V",
+        "tick()V": "Lnet/minecraft/class_746;method_5773()V"
       },
       "walksy/shieldfixes/mixin/PlayerEntityRendererMixin": {
         "getArmPose": "Lnet/minecraft/class_1007;method_4210(Lnet/minecraft/class_742;Lnet/minecraft/class_1268;)Lnet/minecraft/class_572$class_573;"
